@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/61b83f43bdce89bc6c12d6e6
+Content-Type: application/json
+
+{
+    "title":"Most edited blog ever",
+    "author": "Coby Carl",
+    "url": "nike.com",
+    "likes": "114"
+
+}
