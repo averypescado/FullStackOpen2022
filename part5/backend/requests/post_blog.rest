@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRvb3RlciIsImlkIjoiNjFkNjgyNDg5ODI4N2NjMjE1ODQxYTVmIiwiaWF0IjoxNjQxODgyNTE1fQ.lthXSkIusvw5bIAOHHhQc7WymznmcvAoh1zYbBP1JOs
+
+{
+    "title":"Here we go again",
+    "author": "Travis",
+    "url": "nike.com",
+    "likes": "14",
+    "userId": "61d67ba16de950deeb6767c2"
+
+}
